@@ -10,22 +10,32 @@
         }
     }
 
+    
+
     //    greater than min-width means at least
     @media screen and (min-width:786px) {
         nav{
             background-color: brown;
         }
         ul{
-//            border:5px solid red;
             float:right;
         }
         li{
-//            border:2px solid blue;
             height: 60px;
+        }
+        .brand-logo{
+            float:right;
+        }
+    }
+
+    @media screen and (max-width:520px){
+        .navbar-fixed{
+            .brand-logo{
+                float:right;
+            }
         }
     }
 }
-
 
 nav ul {
     margin-right: 0px;

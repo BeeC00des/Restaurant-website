@@ -37,3 +37,23 @@
                   
     }
 }
+@media screen and (max-width:500px) {
+.section-app{
+    .cont5{
+        .text-fill{
+            //    text-align: right;
+            h3,p{
+                color:black;
+                font-weight: bold;
+            }
+            h3{
+                font-size:32px;
+               font-style: italic;
+           }
+           p{
+               font-size:18px;
+           }
+        }
+    }
+   } 
+}
