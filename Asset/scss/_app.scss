@@ -1,0 +1,39 @@
+.section-app{
+    .cont4{
+        width: 90%;
+         p{
+        font-size:18px;
+        font-weight:700px;
+        line-height: 24px
+          }
+        h2{
+            color: #444444;
+            font-size:35px;
+            font-weight: 400px;
+            line-height: 42px;
+            margin-top: 10px;
+            }
+    }
+    .cont5{
+         width:90%;
+         height:500px;
+         background-image: url(../img/bg.png);
+         background-repeat: no-repeat;
+         background-position: center;
+        .text-fill{
+               padding: 200px 56px 212px 0;
+               text-align: right;
+            h3,p{
+               color: #fff;
+            }
+            h3{
+                 font-size:50px;
+                font-style: italic;
+            }
+            p{
+                font-size:20px;
+            }
+        } 
+                  
+    }
+}

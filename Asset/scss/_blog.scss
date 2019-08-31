@@ -1,0 +1,47 @@
+.section-blog{
+    .cont6{
+        width: 90%;
+        padding-bottom: 50px;
+         p{
+        font-size:18px;
+        font-weight:700px;
+        line-height: 24px
+          }
+        h2{
+            color: #444444;
+            font-size:35px;
+            font-weight: 400px;
+            line-height: 42px;
+            margin-top: 10px;
+            }
+        .word{
+            h4{
+                color:#000;
+                font-size:25px;
+                font-weight: 400px;
+                line-height: 42px;
+                //text-align:center;
+            }
+            span{
+               font-size:17px;
+            }
+            h4:hover{
+                    color:#d50c0d;
+                }
+            p{
+                font-size:15px;
+                font-weight:700px;
+                line-height: 24px; 
+                padding-bottom: 10px;
+                text-align: justify;
+            }
+        
+        }
+    }
+//    less than 786px  max-width means at most
+    @media screen and (max-width:786px){
+        .cont6{
+            display: none;
+        }
+    }
+}

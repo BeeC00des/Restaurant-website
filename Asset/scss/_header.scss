@@ -1,0 +1,64 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+header{
+    overflow:hidden !important;
+     .fullscreen {
+                height: 600px !important;
+                animation:zoom 10s ease-in-out infinite;
+                @keyframes zoom{
+                0%{
+                    transform:scale(1);
+                }
+                100%{
+                    transform: scale(1.07);
+                }
+            }
+        }
+    .bgimg{
+            background-image: url(../img/hero-bg.jpg) !important;
+            background-repeat: no-repeat  !important;
+            background-size: cover  !important;
+            background-position: center center  !important;
+        
+    }
+           
+    .main{
+        width:50%;
+        margin: auto;
+        height:600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        input{
+            font-size:16px;
+        }
+    }
+    
+     //    less than min-width means at most
+    @media screen and (max-width:786px) {
+        .main{
+            h1{
+                font-size:55px;
+            }
+        }
+    }
+     @media screen and (max-width:500px) {
+        .main{
+            h1{
+                font-size:55px;
+            }
+            input{
+                display: none;
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,87 @@
+.screen-img{
+    height: 850px;
+    background-image: url(../img/container.jpg) !important;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+        .main-cont{   
+            height:auto;
+            width:90%;
+            background-color:#fff;
+            margin: auto;
+            padding:60px;
+            border-radius: 5px;
+            .container{
+                width: 100%;
+                padding-top:50px;
+                color:#444444;
+                line-height: 24px;
+                h3{
+                    font-size:18px;
+                    font-weight:700px;
+                    margin-top: 0px;
+                    padding-top: 10px;
+                }
+
+                p{
+                    font-size:35px;
+                    font-weight: 400px;
+                    margin-top:-2px;           
+                }
+                .top{
+                    padding-top: 20px;
+                    img{
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 5px;
+                    }
+                    
+                    a{
+                      font-weight:100px;
+                      font-size:20px;
+                    }
+                }
+                
+                .text{
+                    color: #959595;
+                    font-size: 15px;
+                    padding-right: 10px;
+                   
+                }
+            }
+        }
+    //max-width means less than that [768px] (at most)
+    @media screen and (max-width:768px){
+        .main-cont{
+            height:900px;
+            padding:20px;
+            background:rgba(0,0,0, 0.5);
+//            background-color:red;
+//            padding:20px;
+            
+            }
+        }
+     //max-width means less than that [480px] (at most)
+        @media screen and (max-width:520px){
+        .main-cont{
+            height:940px;
+//            background-color:yellow;
+            padding: 20px;
+            }
+        }
+    }
+
+.title{
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat;
+    height:9px;
+    width:45px; 
+}
+
+ .title1{
+    @extend .title;
+    margin-top:40px;   
+}
+
+
+
+
