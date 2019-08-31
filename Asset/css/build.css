@@ -43,8 +43,30 @@ header {
 @keyframes zoom {
   0% {
     transform: scale(1); }
+  25% {
+    transform: scale(1.02); }
+  35% {
+    transform: scale(1.03); }
+  50% {
+    transform: scale(1.04); }
+  65% {
+    transform: scale(1.05); }
+  70% {
+    transform: scale(1.06); }
+  75% {
+    transform: scale(1.07); }
+  80% {
+    transform: scale(1.06); }
+  85% {
+    transform: scale(1.05); }
+  90% {
+    transform: scale(1.03); }
+  95% {
+    transform: scale(1.02); }
+  97% {
+    transform: scale(1.01); }
   100% {
-    transform: scale(1.07); } }
+    transform: scale(1); } }
   header .bgimg {
     background-image: url(../img/hero-bg.jpg) !important;
     background-repeat: no-repeat  !important;
